@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.10.2-web/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todo</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="col-md-6 d-block mx-auto m-5">
+            <div class="card">
+                <div class="card-header bg-primary">
+                    <h3 class="text-center text-white display-4">Todo list</h3>
+                    <p class="lead text-center text-white">Enter your todos here and you can check them when you are done.</p>
+                    <form id="submitForm">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" id="input" required>
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-dark btn-md" type="submit" id="submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-body">
+                    <ul style="list-style-type: none;" id="inner">
+                    
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <p class="text-center text-muted">Copyright &copy; 2020</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
